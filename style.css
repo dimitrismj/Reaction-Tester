@@ -1,0 +1,39 @@
+        #shape {
+            width: 200px;
+            height: 200px;
+            background-color: blue; 
+            display: none;
+            position: relative;
+            
+          }
+
+        #triangle {
+            width: 0; 
+            height: 0; 
+            border-bottom: 120px solid blue; 
+            border-left: 60px solid transparent; 
+            border-right: 60px solid transparent;
+            position: relative;
+            display:none;
+            top: 50px;
+            left: 200px;
+        }
+
+        body {
+              font-family: sans-serif;
+          }
+
+        .bold {
+              font-weight: bold;
+          }
+
+        .copy {
+            font-size : 9pt; 
+            font-family : sans-serif; 
+            color : #000000;
+            position:fixed;
+            bottom:5px;
+            width:100%;
+            display:block;
+            text-align: center
+        }
